@@ -3,7 +3,7 @@ database_main=[ {"NAME":'Kumar',"MARKS":55,"SUBJECT":"EGD","ROLL_NO":1}
                ,{"NAME":"sai","MARKS":67,"SUBJECT":"english","ROLL_NO":3}
                ,{"NAME":"pranav","MARKS":100,"SUBJECT":"math","ROLL_NO":4}
                ,{"NAME":"sanjay","MARKS":79,"SUBJECT":"chemistry","ROLL_NO":5}]
-def add_students():
+def add_students(name,marks,subject,roll_no):
  marks=int(input("enter the marks of the student"))
  name=input("enter the name of the student")
  subject=input("enter the subject")
@@ -30,4 +30,5 @@ def average_marks():
      print(f"the average marks of the given studnets list is {average}")  
 all_students()
 highest_mark()
+
 average_marks()     
